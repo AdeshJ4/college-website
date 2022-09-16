@@ -4,7 +4,7 @@ $visitor_email = $_POST["email"];
 $subject = $_POST["subject"];
 $message = $_POST['message'];
 
-$email_from = "rihan.bagwan.cs@ghrcem.raisoni.net";
+$email_from = "adesh.jadhav.cs@ghrcem.raisoni.net";
 
 $email_subject = "New Form Submission";
 
@@ -15,7 +15,7 @@ $email_body = "User Name: $name.\n".
               "User Message: $message.\n";
 
 
-$to = "rihanbagwan64@gmail.com";
+$to = "adejad1234@gmail.com";
 $headers = "From: $email_from \r\n";
 
 $headers .= "Reply-To: $visitor_email \r\n";
